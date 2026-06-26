@@ -10,7 +10,7 @@ class Bohay < Formula
   desc "Terminal Workspace Manager for Next-Gen Agents — single-binary terminal multiplexer"
   homepage "https://github.com/RizRiyz/bohay"
   url "https://github.com/RizRiyz/bohay/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "c91e7ff6022ea5c1da2295a67b9d2077136e6c3015855e76ff93f48bef55a40a"
   license "MIT"
   head "https://github.com/RizRiyz/bohay.git", branch: "main"
 
