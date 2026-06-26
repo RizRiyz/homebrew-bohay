@@ -7,7 +7,7 @@
 # below to the tag tarball's checksum:
 #   curl -sL https://github.com/RizRiyz/bohay/archive/refs/tags/v0.1.0.tar.gz | shasum -a 256
 class Bohay < Formula
-  desc "Terminal Workspace Manager for Next-Gen Agents — single-binary terminal multiplexer"
+  desc "Terminal multiplexer for AI coding agents"
   homepage "https://github.com/RizRiyz/bohay"
   url "https://github.com/RizRiyz/bohay/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "c91e7ff6022ea5c1da2295a67b9d2077136e6c3015855e76ff93f48bef55a40a"
