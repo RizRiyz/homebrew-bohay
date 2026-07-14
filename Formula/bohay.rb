@@ -5,12 +5,12 @@
 #
 # Stable releases: after you `git tag v0.1.0 && git push --tags`, set `sha256`
 # below to the tag tarball's checksum:
-#   curl -sL https://github.com/RizRiyz/bohay/archive/refs/tags/v0.3.0.tar.gz | shasum -a 256
+#   curl -sL https://github.com/RizRiyz/bohay/archive/refs/tags/v0.4.0.tar.gz | shasum -a 256
 class Bohay < Formula
   desc "Terminal multiplexer for AI coding agents"
   homepage "https://github.com/RizRiyz/bohay"
-  url "https://github.com/RizRiyz/bohay/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "9b085ad4471885815a7a56a43f025a611eb876ba2e23f5d9e31faa854e07710a"
+  url "https://github.com/RizRiyz/bohay/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "02fc15916d96651e23884fdd9fc60f28cc4745a881154a7b13eb23f96c8c1f5f"
   license "MIT"
   head "https://github.com/RizRiyz/bohay.git", branch: "main"
 
