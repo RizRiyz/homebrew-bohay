@@ -12,7 +12,7 @@
 #
 cask "bohay-notch" do
   version "0.6.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "6dc06876f2224cb22e52cd1994e3a4efd873cc6e4cbfe185aa1e42d9d7b3e468"
 
   # DMG is attached to the main bohay release (built from RizRiyz/bohay-notch).
   url "https://github.com/RizRiyz/bohay/releases/download/v#{version}/bohay-notch-#{version}.dmg",
