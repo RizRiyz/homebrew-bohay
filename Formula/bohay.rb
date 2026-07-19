@@ -17,7 +17,7 @@ class Bohay < Formula
   depends_on "rust" => :build
    # Runtime tools bohay shells out to. `git` powers the git tab + worktrees; `gh`
   # adds GitHub PRs/issues (bohay still works as a local-git viewer without it).
-  # (For a homebrew-core submission, drop `git` — core assumes a system git.)
+  # (For a homebrew-core submission, drop `git` - core assumes a system git.)
   depends_on "git"
   depends_on "gh"
 

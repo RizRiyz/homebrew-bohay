@@ -1,4 +1,4 @@
-# Homebrew cask for bohay-notch — the macOS notch/menu-bar companion for bohay.
+# Homebrew cask for bohay-notch - the macOS notch/menu-bar companion for bohay.
 #
 # A cask points at a prebuilt .app (you can't build a GUI app from source in a
 # cask). The `version` and `sha256` below are bumped automatically by the bohay
