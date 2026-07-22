@@ -5,9 +5,8 @@
 # 100+ crate dependency graph from source peaks well over a gigabyte of RAM,
 # which is exactly what people install a binary to avoid.
 #
-# Intel macs are the one exception: the release matrix has no
-# `x86_64-apple-darwin` target yet, so that path still builds from source. Add
-# the target to `.github/workflows/release.yml` and this block can go away.
+# Every platform we publish gets a prebuilt binary, Intel macs included (the
+# release cross-compiles x86_64 on an Apple-silicon runner).
 #
 #   brew install RizRiyz/bohay/bohay
 #   brew install --HEAD RizRiyz/bohay/bohay   # build the tip of main
@@ -33,10 +32,8 @@ class Bohay < Formula
       sha256 "db213be1adf60f5e1db1b7b111cf6c580d57a2acd7e44f7ebe435108bfbd80cc"
     end
     on_intel do
-      # No prebuilt Intel-mac binary — fall back to a source build.
-      url "https://github.com/RizRiyz/bohay/archive/refs/tags/v0.8.1.tar.gz"
-      sha256 "a2ea588510af2e0b913fbcc48c70f89d49070d9ee137ae3e5554cd590edccf8e"
-      depends_on "rust" => :build
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.8.1/bohay-v0.8.1-x86_64-apple-darwin.tar.gz"
+      sha256 "65154fcec6b714a035a12e6017ff1c9663bbea0dc2499d4903da6e7c7c5def20"
     end
   end
 
@@ -52,9 +49,9 @@ class Bohay < Formula
   end
 
   def install
-    # `--HEAD` and the Intel-mac fallback get a source tree; every other path
-    # unpacks a release archive with the binary at its root.
-    if build.head? || (OS.mac? && Hardware::CPU.intel?)
+    # `--HEAD` builds from a source checkout; every release path unpacks an
+    # archive with the binary at its root.
+    if build.head?
       system "cargo", "install", *std_cargo_args
     else
       bin.install "bohay"
