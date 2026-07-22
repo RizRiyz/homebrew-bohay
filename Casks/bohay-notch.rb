@@ -11,8 +11,8 @@
 #   brew install --cask --no-quarantine RizRiyz/bohay/bohay-notch
 #
 cask "bohay-notch" do
-  version "0.8.2"
-  sha256 "c1179abe112c2017ab6e19ec69ab74a7245961049c6348564179e9e547fbbc40"
+  version "0.8.3"
+  sha256 "be33e328ebef2c5597c0927710d4c99eb18917a86070dabb902a5e37a01b483e"
 
   # DMG is attached to the main bohay release (built from RizRiyz/bohay-notch).
   url "https://github.com/RizRiyz/bohay/releases/download/v#{version}/bohay-notch-#{version}.dmg",
