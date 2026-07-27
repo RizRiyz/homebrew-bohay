@@ -16,7 +16,7 @@
 class Bohay < Formula
   desc "Terminal multiplexer for AI coding agents"
   homepage "https://github.com/RizRiyz/bohay"
-  version "0.9.2"
+  version "0.9.3"
   license "MIT"
   head "https://github.com/RizRiyz/bohay.git", branch: "main"
 
@@ -28,23 +28,23 @@ class Bohay < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.2/bohay-v0.9.2-aarch64-apple-darwin.tar.gz"
-      sha256 "64240df71f3066f5a048f1e8f4ca8764928bda66ab5fc6d5743642cbb44bda3c"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.3/bohay-v0.9.3-aarch64-apple-darwin.tar.gz"
+      sha256 "5f7f129ad7dcd874a299a8a4101a2000445879f355e1f1c9ba75f551a222a2c5"
     end
     on_intel do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.2/bohay-v0.9.2-x86_64-apple-darwin.tar.gz"
-      sha256 "e65876d148eeed9233eb9ea13cfb876a70c6b94e5ddf31705c52a0f76b217e79"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.3/bohay-v0.9.3-x86_64-apple-darwin.tar.gz"
+      sha256 "3f71170673debd808b972179a80afe53435305ce5dad8ca43f9cf12e423448ec"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.2/bohay-v0.9.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "eb1a5f61caaace1273fd231b21526bb98cd1dfef0f8250a62c6ba20c8e08933d"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.3/bohay-v0.9.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "db9869d1b705d8b0d19ac084298a85b87f4a55bf7916a03ab85fe7325e21af6c"
     end
     on_arm do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.2/bohay-v0.9.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5171311238ff675c7adbdab0312b80ae0d88ec9f23ef8137e5ce7b183510960d"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.9.3/bohay-v0.9.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fba2c38cf404b7437c3b2a40b1abb07d3eb6ca3be31fddc7ab7332bcc3a493f8"
     end
   end
 
