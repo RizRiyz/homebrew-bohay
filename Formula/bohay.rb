@@ -14,7 +14,7 @@
 # `scripts/release.sh` rewrites the version + every sha256 below from the
 # release's published `.sha256` assets — don't hand-edit them.
 class Bohay < Formula
-  desc "Terminal multiplexer for AI coding agents"
+  desc "Mission control for your AI coding agents"
   homepage "https://github.com/RizRiyz/bohay"
   version "0.9.3"
   license "MIT"
