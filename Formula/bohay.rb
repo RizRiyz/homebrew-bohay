@@ -16,7 +16,7 @@
 class Bohay < Formula
   desc "Mission control for your AI coding agents"
   homepage "https://github.com/RizRiyz/bohay"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
   head "https://github.com/RizRiyz/bohay.git", branch: "main"
 
@@ -28,23 +28,23 @@ class Bohay < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.0/bohay-v0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d85afda6484c3c04d437e627f99a0c8fa17bd74bbc001c547571e06b0fd02a3f"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.1/bohay-v0.10.1-aarch64-apple-darwin.tar.gz"
+      sha256 "80ed6ea8edb5f29652555aab4eb0c1e5b4a0017908d622756d81f30ac93c73ad"
     end
     on_intel do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.0/bohay-v0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c3d7f9037a380380dfe65d2df02524603ea613f52acad5aeeb4fcd3239611724"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.1/bohay-v0.10.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c5911fd128773adf221243c0df803ef3fd77c924816dc9882ba5c1cac713a2b6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.0/bohay-v0.10.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "95f166681ce644694fed1ee4e10aed99070389c5eee71eca56bc3daa83368ebc"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.1/bohay-v0.10.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5e34985e2f7567fa191135d1b90ce91fa343b0cb890ae5ed38f2645cd261af08"
     end
     on_arm do
-      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.0/bohay-v0.10.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "455c168626d8036e85b379e92e6a602c6b3a2080d7d647a5bb2639a66d26d6ca"
+      url "https://github.com/RizRiyz/bohay/releases/download/v0.10.1/bohay-v0.10.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ef21154a2a998d1003432667749d583122846a6ba947fbcd694534aae60aa7ee"
     end
   end
 
