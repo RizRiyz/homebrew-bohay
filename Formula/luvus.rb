@@ -28,19 +28,23 @@ class Luvus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/homebrew-luvus/Formula/luvus.rbe108e2755fdc35dc9a4d5914ddaac30ab5af6b4c35a0af5372de87026b68cf84"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/luvus-v0.11.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e108e2755fdc35dc9a4d5914ddaac30ab5af6b4c35a0af5372de87026b68cf84"
     end
     on_intel do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/homebrew-luvus/Formula/luvus.rbfccba0b928b983d7a03efd8730bd2a2dd72c14d29abf799c92d4d71829df123d"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/luvus-v0.11.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fccba0b928b983d7a03efd8730bd2a2dd72c14d29abf799c92d4d71829df123d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/homebrew-luvus/Formula/luvus.rb5c1192b1b48a8ce7cb969926b382470e114999ffe2a13a96e2b23fe4a6223ad0"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/luvus-v0.11.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5c1192b1b48a8ce7cb969926b382470e114999ffe2a13a96e2b23fe4a6223ad0"
     end
     on_arm do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/homebrew-luvus/Formula/luvus.rbf2b45d1f5f588f436797c82dcb6998d84c4cc67ec5cfdfa829fd9a131c867e65"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.11.0/luvus-v0.11.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f2b45d1f5f588f436797c82dcb6998d84c4cc67ec5cfdfa829fd9a131c867e65"
     end
   end
 
